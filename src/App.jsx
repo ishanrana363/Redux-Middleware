@@ -1,9 +1,10 @@
 import React from 'react'
+import TodoList from './components/TodoList'
 
 const App = () => {
   return (
     <div>
-      <h1>redux</h1>
+      <TodoList></TodoList>
     </div>
   )
 }
